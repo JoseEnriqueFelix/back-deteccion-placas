@@ -1,0 +1,868 @@
+[
+  {
+    "model": "api.Usuario",
+    "pk": 1,
+    "fields": {
+      "nombre_completo": "Héctor Medina Ramírez",
+      "tipo_usuario": "alumno",
+      "telefono": "6621400001",
+      "email": "hmedina@example.com",
+      "fecha_registro": "2025-11-25",
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Usuario",
+    "pk": 2,
+    "fields": {
+      "nombre_completo": "Brenda Castillo Gómez",
+      "tipo_usuario": "alumno",
+      "telefono": "6621400002",
+      "email": "bcastillo@example.com",
+      "fecha_registro": "2025-11-25",
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Usuario",
+    "pk": 3,
+    "fields": {
+      "nombre_completo": "Manuel Torres Delgado",
+      "tipo_usuario": "alumno",
+      "telefono": "6621400003",
+      "email": "mtorres@example.com",
+      "fecha_registro": "2025-11-25",
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Usuario",
+    "pk": 4,
+    "fields": {
+      "nombre_completo": "Lucía Herrera Paredes",
+      "tipo_usuario": "empleado",
+      "telefono": "6621400004",
+      "email": "lherrera@example.com",
+      "fecha_registro": "2025-11-25",
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Usuario",
+    "pk": 5,
+    "fields": {
+      "nombre_completo": "Andrés Aguilar Vázquez",
+      "tipo_usuario": "empleado",
+      "telefono": "6621400005",
+      "email": "aaguilar@example.com",
+      "fecha_registro": "2025-11-25",
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Usuario",
+    "pk": 6,
+    "fields": {
+      "nombre_completo": "Patricia Luna Cervantes",
+      "tipo_usuario": "alumno",
+      "telefono": "6621400006",
+      "email": "pluna@example.com",
+      "fecha_registro": "2025-11-25",
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Usuario",
+    "pk": 7,
+    "fields": {
+      "nombre_completo": "Diego Fuentes Sandoval",
+      "tipo_usuario": "otro",
+      "telefono": "6621400007",
+      "email": "dfuentes@example.com",
+      "fecha_registro": "2025-11-25",
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Usuario",
+    "pk": 8,
+    "fields": {
+      "nombre_completo": "Sofía Martínez Robles",
+      "tipo_usuario": "empleado",
+      "telefono": "6621400008",
+      "email": "smartinez@example.com",
+      "fecha_registro": "2025-11-25",
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Usuario",
+    "pk": 9,
+    "fields": {
+      "nombre_completo": "Javier Ríos Montelongo",
+      "tipo_usuario": "alumno",
+      "telefono": "6621400009",
+      "email": "jrios@example.com",
+      "fecha_registro": "2025-11-25",
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Usuario",
+    "pk": 10,
+    "fields": {
+      "nombre_completo": "Carolina Vega Villaseñor",
+      "tipo_usuario": "otro",
+      "telefono": "6621400010",
+      "email": "cvega@example.com",
+      "fecha_registro": "2025-11-25",
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Usuario",
+    "pk": 11,
+    "fields": {
+      "nombre_completo": "Ernesto Paredes Acuña",
+      "tipo_usuario": "alumno",
+      "telefono": "6621400011",
+      "email": "eparedes@example.com",
+      "fecha_registro": "2025-11-25",
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Usuario",
+    "pk": 12,
+    "fields": {
+      "nombre_completo": "Marisol Duarte Armenta",
+      "tipo_usuario": "empleado",
+      "telefono": "6621400012",
+      "email": "mduarte@example.com",
+      "fecha_registro": "2025-11-25",
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Operador",
+    "pk": 1,
+    "fields": {
+      "nombre_completo": "Rubén Cortés Alcántara",
+      "telefono": "6623300001",
+      "email": "rcortes@example.com",
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Operador",
+    "pk": 2,
+    "fields": {
+      "nombre_completo": "Miguel Flores Quintana",
+      "telefono": "6623300002",
+      "email": "mflores@example.com",
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Operador",
+    "pk": 3,
+    "fields": {
+      "nombre_completo": "Alberto Salazar Cota",
+      "telefono": "6623300003",
+      "email": "asalazar@example.com",
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "ABC123",
+    "fields": {
+      "usuario": 1,
+      "marca": "Toyota",
+      "modelo": "Corolla",
+      "color": "Blanco",
+      "anio": 2018,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "DEF456",
+    "fields": {
+      "usuario": 1,
+      "marca": "Honda",
+      "modelo": "Civic",
+      "color": "Rojo",
+      "anio": 2020,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "GHI789",
+    "fields": {
+      "usuario": 1,
+      "marca": "Nissan",
+      "modelo": "Versa",
+      "color": "Negro",
+      "anio": 2019,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "JKL111",
+    "fields": {
+      "usuario": 2,
+      "marca": "Mazda",
+      "modelo": "3",
+      "color": "Azul",
+      "anio": 2021,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "MNO222",
+    "fields": {
+      "usuario": 2,
+      "marca": "Chevrolet",
+      "modelo": "Onix",
+      "color": "Gris",
+      "anio": 2020,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "PQR333",
+    "fields": {
+      "usuario": 2,
+      "marca": "Kia",
+      "modelo": "Rio",
+      "color": "Blanco",
+      "anio": 2019,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "STU444",
+    "fields": {
+      "usuario": 3,
+      "marca": "Volkswagen",
+      "modelo": "Jetta",
+      "color": "Negro",
+      "anio": 2018,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "VWX555",
+    "fields": {
+      "usuario": 3,
+      "marca": "Ford",
+      "modelo": "Focus",
+      "color": "Plata",
+      "anio": 2017,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "YZA666",
+    "fields": {
+      "usuario": 3,
+      "marca": "Hyundai",
+      "modelo": "Elantra",
+      "color": "Azul",
+      "anio": 2022,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "BBB777",
+    "fields": {
+      "usuario": 4,
+      "marca": "Toyota",
+      "modelo": "Camry",
+      "color": "Rojo",
+      "anio": 2021,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "CCC888",
+    "fields": {
+      "usuario": 4,
+      "marca": "Honda",
+      "modelo": "Accord",
+      "color": "Negro",
+      "anio": 2020,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "DDD999",
+    "fields": {
+      "usuario": 4,
+      "marca": "Mazda",
+      "modelo": "CX-5",
+      "color": "Gris",
+      "anio": 2019,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "EEE101",
+    "fields": {
+      "usuario": 5,
+      "marca": "Kia",
+      "modelo": "Sportage",
+      "color": "Blanco",
+      "anio": 2022,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "FFF202",
+    "fields": {
+      "usuario": 5,
+      "marca": "Ford",
+      "modelo": "Escape",
+      "color": "Azul",
+      "anio": 2021,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "GGG303",
+    "fields": {
+      "usuario": 5,
+      "marca": "Honda",
+      "modelo": "CR-V",
+      "color": "Negro",
+      "anio": 2020,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "HHH404",
+    "fields": {
+      "usuario": 6,
+      "marca": "Nissan",
+      "modelo": "Sentra",
+      "color": "Plata",
+      "anio": 2018,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "III505",
+    "fields": {
+      "usuario": 6,
+      "marca": "Hyundai",
+      "modelo": "Tucson",
+      "color": "Rojo",
+      "anio": 2022,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "JJJ606",
+    "fields": {
+      "usuario": 6,
+      "marca": "Volkswagen",
+      "modelo": "Gol",
+      "color": "Blanco",
+      "anio": 2017,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "KKK707",
+    "fields": {
+      "usuario": 7,
+      "marca": "Mazda",
+      "modelo": "CX-30",
+      "color": "Gris",
+      "anio": 2021,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "LLL808",
+    "fields": {
+      "usuario": 7,
+      "marca": "Toyota",
+      "modelo": "Yaris",
+      "color": "Azul",
+      "anio": 2019,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "MMM909",
+    "fields": {
+      "usuario": 7,
+      "marca": "Chevrolet",
+      "modelo": "Aveo",
+      "color": "Negro",
+      "anio": 2018,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "NNN010",
+    "fields": {
+      "usuario": 8,
+      "marca": "Honda",
+      "modelo": "HR-V",
+      "color": "Plata",
+      "anio": 2020,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "OOO020",
+    "fields": {
+      "usuario": 8,
+      "marca": "Kia",
+      "modelo": "Forte",
+      "color": "Blanco",
+      "anio": 2021,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "PPP030",
+    "fields": {
+      "usuario": 8,
+      "marca": "Nissan",
+      "modelo": "March",
+      "color": "Rojo",
+      "anio": 2017,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "QQQ040",
+    "fields": {
+      "usuario": 9,
+      "marca": "Toyota",
+      "modelo": "Corolla",
+      "color": "Negro",
+      "anio": 2016,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "RRR050",
+    "fields": {
+      "usuario": 9,
+      "marca": "Hyundai",
+      "modelo": "Grand i10",
+      "color": "Gris",
+      "anio": 2019,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "SSS060",
+    "fields": {
+      "usuario": 9,
+      "marca": "Volkswagen",
+      "modelo": "Vento",
+      "color": "Blanco",
+      "anio": 2018,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "TTT070",
+    "fields": {
+      "usuario": 10,
+      "marca": "Mazda",
+      "modelo": "2",
+      "color": "Rojo",
+      "anio": 2020,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "UUU080",
+    "fields": {
+      "usuario": 10,
+      "marca": "Ford",
+      "modelo": "Fiesta",
+      "color": "Azul",
+      "anio": 2017,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "VVV090",
+    "fields": {
+      "usuario": 10,
+      "marca": "Honda",
+      "modelo": "Fit",
+      "color": "Negro",
+      "anio": 2019,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "WWW100",
+    "fields": {
+      "usuario": 11,
+      "marca": "Chevrolet",
+      "modelo": "Spark",
+      "color": "Gris",
+      "anio": 2018,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "XXX200",
+    "fields": {
+      "usuario": 11,
+      "marca": "Toyota",
+      "modelo": "Corolla",
+      "color": "Blanco",
+      "anio": 2021,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "YYY300",
+    "fields": {
+      "usuario": 11,
+      "marca": "Nissan",
+      "modelo": "Altima",
+      "color": "Negro",
+      "anio": 2019,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "ZZZ400",
+    "fields": {
+      "usuario": 12,
+      "marca": "Volkswagen",
+      "modelo": "Jetta",
+      "color": "Azul",
+      "anio": 2020,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "AAA500",
+    "fields": {
+      "usuario": 12,
+      "marca": "Honda",
+      "modelo": "Civic",
+      "color": "Rojo",
+      "anio": 2017,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Vehiculo",
+    "pk": "BBB600",
+    "fields": {
+      "usuario": 12,
+      "marca": "Toyota",
+      "modelo": "RAV4",
+      "color": "Gris",
+      "anio": 2022,
+      "estado": true
+    }
+  },
+  {
+    "model": "api.Incidencia",
+    "pk": 1,
+    "fields": {
+      "vehiculo": "GHI789",
+      "operador": 1,
+      "descripcion_incidencia": "Vehículo estacionado en zona prohibida",
+      "fecha_hora": "2025-11-25T00:24:06Z",
+      "evidencia_fotografia": "media/incidencias/inc_1.jpg",
+      "latitud": 29.0891234,
+      "longitud": -110.956789
+    }
+  },
+  {
+    "model": "api.Incidencia",
+    "pk": 2,
+    "fields": {
+      "vehiculo": "STU444",
+      "operador": 2,
+      "descripcion_incidencia": "Bloqueo de paso peatonal",
+      "fecha_hora": "2025-11-25T00:24:06Z",
+      "evidencia_fotografia": "media/incidencias/inc_2.jpg",
+      "latitud": 29.0912345,
+      "longitud": -110.954321
+    }
+  },
+  {
+    "model": "api.Incidencia",
+    "pk": 3,
+    "fields": {
+      "vehiculo": "BBB777",
+      "operador": 3,
+      "descripcion_incidencia": "Vehículo sin permiso visible",
+      "fecha_hora": "2025-11-25T00:24:06Z",
+      "evidencia_fotografia": "media/incidencias/inc_3.jpg",
+      "latitud": 29.0905678,
+      "longitud": -110.9532109
+    }
+  },
+  {
+    "model": "api.Incidencia",
+    "pk": 4,
+    "fields": {
+      "vehiculo": "DDD999",
+      "operador": 1,
+      "descripcion_incidencia": "Mal estacionado sobre línea amarilla",
+      "fecha_hora": "2025-11-25T00:24:06Z",
+      "evidencia_fotografia": "media/incidencias/inc_4.jpg",
+      "latitud": 29.0889901,
+      "longitud": -110.9560012
+    }
+  },
+  {
+    "model": "api.Incidencia",
+    "pk": 5,
+    "fields": {
+      "vehiculo": "MNO222",
+      "operador": 2,
+      "descripcion_incidencia": "Obstrucción de rampa",
+      "fecha_hora": "2025-11-25T00:24:06Z",
+      "evidencia_fotografia": "media/incidencias/inc_5.jpg",
+      "latitud": 29.0876543,
+      "longitud": -110.9520143
+    }
+  },
+  {
+    "model": "api.Incidencia",
+    "pk": 6,
+    "fields": {
+      "vehiculo": "GGG303",
+      "operador": 3,
+      "descripcion_incidencia": "Estacionado en lugar exclusivo",
+      "fecha_hora": "2025-11-25T00:24:06Z",
+      "evidencia_fotografia": "media/incidencias/inc_6.jpg",
+      "latitud": 29.0897777,
+      "longitud": -110.9500043
+    }
+  },
+  {
+    "model": "api.Incidencia",
+    "pk": 7,
+    "fields": {
+      "vehiculo": "VWX555",
+      "operador": 1,
+      "descripcion_incidencia": "Vehículo sin placas delanteras",
+      "fecha_hora": "2025-11-25T00:24:06Z",
+      "evidencia_fotografia": "media/incidencias/inc_7.jpg",
+      "latitud": 29.0911111,
+      "longitud": -110.9588888
+    }
+  },
+  {
+    "model": "api.Incidencia",
+    "pk": 8,
+    "fields": {
+      "vehiculo": "III505",
+      "operador": 2,
+      "descripcion_incidencia": "Estacionado en doble fila",
+      "fecha_hora": "2025-11-25T00:24:06Z",
+      "evidencia_fotografia": "media/incidencias/inc_8.jpg",
+      "latitud": 29.0922222,
+      "longitud": -110.9597777
+    }
+  },
+  {
+    "model": "api.Incidencia",
+    "pk": 9,
+    "fields": {
+      "vehiculo": "ABC123",
+      "operador": 3,
+      "descripcion_incidencia": "Vehículo con luces encendidas",
+      "fecha_hora": "2025-11-25T00:24:06Z",
+      "evidencia_fotografia": "media/incidencias/inc_9.jpg",
+      "latitud": 29.0865432,
+      "longitud": -110.9510123
+    }
+  },
+  {
+    "model": "api.Incidencia",
+    "pk": 10,
+    "fields": {
+      "vehiculo": "LLL808",
+      "operador": 1,
+      "descripcion_incidencia": "Estacionado en zona de carga y descarga",
+      "fecha_hora": "2025-11-25T00:24:06Z",
+      "evidencia_fotografia": "media/incidencias/inc_10.jpg",
+      "latitud": 29.0859876,
+      "longitud": -110.9503212
+    }
+  },
+  {
+    "model": "api.Incidencia",
+    "pk": 11,
+    "fields": {
+      "vehiculo": "QQQ040",
+      "operador": 2,
+      "descripcion_incidencia": "Vehículo abandonado por más de 1 hora",
+      "fecha_hora": "2025-11-25T00:24:06Z",
+      "evidencia_fotografia": "media/incidencias/inc_11.jpg",
+      "latitud": 29.0893333,
+      "longitud": -110.9529999
+    }
+  },
+  {
+    "model": "api.Incidencia",
+    "pk": 12,
+    "fields": {
+      "vehiculo": "VVV090",
+      "operador": 3,
+      "descripcion_incidencia": "Mal estacionado invadiendo carril",
+      "fecha_hora": "2025-11-25T00:24:06Z",
+      "evidencia_fotografia": "media/incidencias/inc_12.jpg",
+      "latitud": 29.0934444,
+      "longitud": -110.9601111
+    }
+  },
+  {
+    "model": "api.Incidencia",
+    "pk": 13,
+    "fields": {
+      "vehiculo": "XXX200",
+      "operador": 1,
+      "descripcion_incidencia": "Vehículo sin holograma",
+      "fecha_hora": "2025-11-25T00:24:06Z",
+      "evidencia_fotografia": "media/incidencias/inc_13.jpg",
+      "latitud": 29.0872323,
+      "longitud": -110.9572222
+    }
+  },
+  {
+    "model": "api.Incidencia",
+    "pk": 14,
+    "fields": {
+      "vehiculo": "MMM909",
+      "operador": 2,
+      "descripcion_incidencia": "Estacionamiento indebido",
+      "fecha_hora": "2025-11-25T00:24:06Z",
+      "evidencia_fotografia": "media/incidencias/inc_14.jpg",
+      "latitud": 29.0898989,
+      "longitud": -110.9544444
+    }
+  },
+  {
+    "model": "api.Incidencia",
+    "pk": 15,
+    "fields": {
+      "vehiculo": "TTT070",
+      "operador": 3,
+      "descripcion_incidencia": "Bloqueo de hidrante",
+      "fecha_hora": "2025-11-25T00:24:06Z",
+      "evidencia_fotografia": "media/incidencias/inc_15.jpg",
+      "latitud": 29.0866666,
+      "longitud": -110.9521212
+    }
+  },
+  {
+    "model": "api.Incidencia",
+    "pk": 16,
+    "fields": {
+      "vehiculo": "BBB600",
+      "operador": 1,
+      "descripcion_incidencia": "Estacionado en zona de maestros",
+      "fecha_hora": "2025-11-25T00:24:06Z",
+      "evidencia_fotografia": "media/incidencias/inc_16.jpg",
+      "latitud": 29.0881234,
+      "longitud": -110.9539876
+    }
+  },
+  {
+    "model": "api.Incidencia",
+    "pk": 17,
+    "fields": {
+      "vehiculo": "YZA666",
+      "operador": 3,
+      "descripcion_incidencia": "Uso de lugar reservado",
+      "fecha_hora": "2025-11-25T00:24:06Z",
+      "evidencia_fotografia": "media/incidencias/inc_17.jpg",
+      "latitud": 29.0904444,
+      "longitud": -110.954789
+    }
+  },
+  {
+    "model": "api.Incidencia",
+    "pk": 18,
+    "fields": {
+      "vehiculo": "FFF202",
+      "operador": 2,
+      "descripcion_incidencia": "Bloqueo de entrada vehicular",
+      "fecha_hora": "2025-11-25T00:24:06Z",
+      "evidencia_fotografia": "media/incidencias/inc_18.jpg",
+      "latitud": 29.0890123,
+      "longitud": -110.9556789
+    }
+  },
+  {
+    "model": "api.Incidencia",
+    "pk": 19,
+    "fields": {
+      "vehiculo": "JJJ606",
+      "operador": 1,
+      "descripcion_incidencia": "Vehículo sin registro en sistema",
+      "fecha_hora": "2025-11-25T00:24:06Z",
+      "evidencia_fotografia": "media/incidencias/inc_19.jpg",
+      "latitud": 29.0909999,
+      "longitud": -110.9515678
+    }
+  },
+  {
+    "model": "api.Incidencia",
+    "pk": 20,
+    "fields": {
+      "vehiculo": "NNN010",
+      "operador": 3,
+      "descripcion_incidencia": "Invade línea peatonal",
+      "fecha_hora": "2025-11-25T00:24:06Z",
+      "evidencia_fotografia": "media/incidencias/inc_20.jpg",
+      "latitud": 29.0877777,
+      "longitud": -110.9532221
+    }
+  }
+]
