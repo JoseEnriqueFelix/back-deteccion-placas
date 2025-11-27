@@ -1,4 +1,6 @@
 from django.db import models
+from django.db.models.signals import post_save
+from django.dispatch import receiver
 
 # Create your models here.
 
@@ -14,6 +16,7 @@ class Usuario(models.Model):
     telefono = models.CharField(max_length=15, blank=True, null=True)
     email = models.CharField(max_length=100, blank=True, null=True)
     fecha_registro = models.DateField(auto_now_add=True)
+    discapacitado = models.BooleanField(default=False) # 1 si / 0 no
     estado = models.BooleanField(default=True)  # 1 activo / 0 inactivo
 
     def __str__(self):
@@ -55,3 +58,19 @@ class Incidencia(models.Model):
 
     def __str__(self):
         return f"Incidencia #{self.id} - {self.vehiculo.placa}"
+
+
+@receiver(post_save, sender=Incidencia)
+def cambiar_estado(sender, instance, created, **kwargs):
+    if not created:
+        return
+
+    usuario = instance.vehiculo.usuario
+
+    total_incidencias = Incidencia.objects.filter(
+        vehiculo__usuario=usuario
+    ).count()
+
+    if total_incidencias >= 3:
+        usuario.estado = False
+        usuario.save()
