@@ -52,7 +52,7 @@ class Incidencia(models.Model):
     operador = models.ForeignKey(Operador, on_delete=models.CASCADE)
     descripcion_incidencia = models.CharField(max_length=255)
     fecha_hora = models.DateTimeField(auto_now_add=True)
-    evidencia_fotografia = models.CharField(max_length=255)
+    evidencia_fotografia = models.ImageField(upload_to='incidencias/')
     latitud = models.DecimalField(max_digits=10, decimal_places=7, blank=True, null=True)
     longitud = models.DecimalField(max_digits=10, decimal_places=7, blank=True, null=True)
 
